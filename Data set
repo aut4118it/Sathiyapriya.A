@@ -1,0 +1,78 @@
+
+
+Title: Personalizing E-learning Experiences Using Student Engagement and.
+
+
+
+
+Dataset Attributes:
+
+1. Student ID
+Type: Integer
+Description: Unique identifier for each student.
+
+
+2. Name
+Type: String
+Description: Full name of the student (used for reference or display purposes).
+
+
+3. Time Spent (hrs)
+Type: Float
+Description: Total number of hours the student has spent actively engaging with learning materials on the platform.
+
+
+4. Login Frequency (per week)
+Type: Integer
+Description: Average number of times a student logs into the system weekly.
+
+
+5. Activity Count
+Type: Integer
+Description: Number of activities completed (e.g., quizzes, video lectures, interactive lessons).
+
+
+6. Quiz Score (%)
+Type: Float
+Description: Average percentage score achieved in quizzes.
+
+
+7. Assignment Score (%)
+Type: Float
+Description: Average percentage score for submitted assignments.
+
+
+8. Forum Posts
+Type: Integer
+Description: Number of posts or replies made by the student in discussion forums, indicating collaboration and engagement.
+
+
+9. Video Watched (%)
+Type: Float
+Description: Percentage of total course videos the student has watched.
+
+
+10. Personalized Recommendation
+Type: Categorical (e.g., "Remedial Material", "Review + Practice", "Moderate Content", "Advanced Content")
+Description: Suggested learning path or resource based on analytics—used for tailoring the learning experience.
+
+
+
+
+---
+
+Use Case:
+
+This dataset can be used to:
+
+Train machine learning models for content recommendation.
+
+Analyze behavioral patterns that correlate with performance.
+
+Improve user retention through adaptive feedback.
+
+Segment learners into groups for differentiated instruction.
+
+
+Would you like help writing a report, research paper, or Python analysis based on this dataset?
+

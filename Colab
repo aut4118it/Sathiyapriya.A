@@ -1,0 +1,22 @@
+# Sample student data
+students = [
+    {'name': 'John', 'engagement': 70, 'performance': 65},
+    {'name': 'Emma', 'engagement': 40, 'performance': 50},
+    {'name': 'Liam', 'engagement': 85, 'performance': 90}
+]
+
+# Function to personalize learning
+def personalize_learning(student):
+    if student['engagement'] < 50 and student['performance'] < 60:
+        return "Recommend interactive and basic lessons"
+    elif student['engagement'] >= 50 and student['performance'] < 70:
+        return "Give focused practice on weak topics"
+    elif student['engagement'] >= 70 and student['performance'] >= 70:
+        return "Suggest advanced learning materials"
+    else:
+        return "Monitor and support with motivational tips"
+
+# Apply to each student
+for student in students:
+    result = personalize_learning(student)
+    print(f"{student['name']} → {result}")
